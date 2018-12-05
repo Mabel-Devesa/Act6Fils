@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Miembros del equipo</string>
+    <string name="equipo">Nombre de equipo</string>
+    <string name="nom1">Mabel Devesa</string>
+    <string name="nom2">pers2</string>
+    <string name="nom3">pers3</string>
+    <string name="nom4">pers4</string>
+    <string name="img1">yo</string>
+    <string name="img2">p2</string>
+    <string name="img3">p3</string>
+    <string name="img4">p4</string>
+    <string name="desc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="desc2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="desc3">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="desc4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="apt1">Programacio</string>
+    <string name="apt2">Programacio</string>
+    <string name="apt3">Programacio</string>
+    <string name="apt4">Programacio</string>
+
+</resources>

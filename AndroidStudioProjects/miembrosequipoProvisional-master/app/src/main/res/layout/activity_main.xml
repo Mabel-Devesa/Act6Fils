@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/b4_nom4"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/nom4"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/p4"
+        app:layout_constraintTop_toBottomOf="@+id/imageEquipo" />
+
+    <Button
+        android:id="@+id/b3_nom3"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="192dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/nom3"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/p3"
+        app:layout_constraintTop_toBottomOf="@+id/imageEquipo" />
+
+    <Button
+        android:id="@+id/b2_nom2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/nom2"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/p2"
+        app:layout_constraintTop_toBottomOf="@+id/imageEquipo" />
+
+    <ImageView
+        android:id="@+id/p4"
+        android:layout_width="75dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p3"
+        app:srcCompat="@drawable/p4" />
+
+    <ImageView
+        android:id="@+id/p3"
+        android:layout_width="75dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p2"
+        app:srcCompat="@drawable/p3" />
+
+    <ImageView
+        android:id="@+id/p2"
+        android:layout_width="75dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1"
+        app:srcCompat="@drawable/p2" />
+
+    <ImageView
+        android:id="@+id/imageEquipo"
+        android:layout_width="0dp"
+        android:layout_height="192dp"
+        android:background="@android:color/holo_orange_dark"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/equipo" />
+
+    <TextView
+        android:id="@+id/tv_nombreEq"
+        android:layout_width="202dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/equipo"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/barraN"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/barraN"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:background="@android:color/background_dark"
+        android:text="TextView"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageEquipo" />
+
+    <ImageView
+        android:id="@+id/p1"
+        android:layout_width="75dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barraN"
+        app:srcCompat="@drawable/yo" />
+
+    <Button
+        android:id="@+id/b1_nom1"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/nom1"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/imageEquipo" />
+
+
+</android.support.constraint.ConstraintLayout>

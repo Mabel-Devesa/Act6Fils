@@ -1,4 +1,4 @@
-package com.mdevesa.activitats.fils;
+package com.mdevesa.activitats.act_7_comunicacions;
 
 import org.junit.Test;
 

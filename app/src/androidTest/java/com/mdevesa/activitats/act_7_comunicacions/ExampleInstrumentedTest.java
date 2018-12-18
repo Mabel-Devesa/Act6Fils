@@ -1,4 +1,4 @@
-package com.mdevesa.activitats.fils;
+package com.mdevesa.activitats.act_7_comunicacions;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.mdevesa.activitats.fils", appContext.getPackageName());
+        assertEquals("com.mdevesa.activitats.act_7_comunicacions", appContext.getPackageName());
     }
 }
